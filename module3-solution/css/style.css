@@ -55,7 +55,7 @@ body {
 
 /* Desktop view options */
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
         float: left;
     }
@@ -101,29 +101,6 @@ body {
 /* Tablet view options */
 
 @media (max-width: 768px) and (max-width: 991px) {
-    .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-      border: 2px solid #000000;
-    }
-    .navbar-header button.navbar-toggle {
-      clear: both;
-      margin-top: -35px;
-    }
-    #nav-list {
-      margin-top: 10px;
-    }
-    #nav-list a {
-      color: #000000;
-      text-align: center;
-      /* border-bottom: 1px solid #000000; */
-      font-weight: bold;
-    }
-    #nav-list a:hover {
-      background: #E7E7E7;
-    }
-    #nav-list a span {
-      font-size: 1.8em;
-    }
-
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
         float: left;
     }
@@ -174,6 +151,9 @@ body {
   .navbar-header button.navbar-toggle {
     clear: both;
     margin-top: -40px;
+  }
+  .navbar-header button.navbar-toggle:focus {
+    border: 1px solid #ffffff;
   }
   #nav-list {
     margin-top: 10px;
