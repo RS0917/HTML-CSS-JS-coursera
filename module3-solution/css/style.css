@@ -145,12 +145,6 @@ body {
 /* Mobile view options */
 
 @media (max-width: 767px) {
-  .container {
-      padding-right: 20px;
-      padding-left: 30px;
-      margin-right: auto;
-      margin-left: auto;
-  }
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #000000;
   }
