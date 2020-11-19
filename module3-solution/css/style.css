@@ -55,7 +55,7 @@ body {
 
 /* Desktop view options */
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
         float: left;
     }
@@ -145,15 +145,18 @@ body {
 /* Mobile view options */
 
 @media (max-width: 767px) {
+  .container {
+      padding-right: 20px;
+      padding-left: 30px;
+      margin-right: auto;
+      margin-left: auto;
+  }
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #000000;
+    border: 2px solid #000000;
   }
   .navbar-header button.navbar-toggle {
     clear: both;
     margin-top: -40px;
-  }
-  .navbar-header button.navbar-toggle:focus {
-    border: 1px solid #ffffff;
   }
   #nav-list {
     margin-top: 10px;
